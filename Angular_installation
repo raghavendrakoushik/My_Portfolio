@@ -1,0 +1,28 @@
+MY website Development
+
+
+Using Visual Studio code as IDE
+
+Steps:
+1. Installed Node package from https://nodejs.org/en/download/ and selected macOS Installer
+2. After following the screen instruction, nodejs was successfully installed.
+
+checking versions with command
+1. "node --version" ----- v14.16.1
+2. "npm --version" ------ 6.14.12
+
+For mac , you might get access error -- for accessing node packages, so execute the bellow command 
+
+check the path of npm folder by "npm config get prefix" and it will be generally   -- "/usr/local"
+
+"sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}"
+
+
+To install the Angular CLI, in a terminal or command prompt type:
+
+npm install -g @angular/cli
+
+version is 11.2.10
+
+
+
